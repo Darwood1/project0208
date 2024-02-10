@@ -4,7 +4,6 @@ body {
   color: black ;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
-  background-color: #eae2b7;
 }
 /* Set the font family for any h1, h2, or h3 heading */
 h1 {
@@ -48,8 +47,7 @@ img {
 }
 
 .image-circle {
-    border-radius: 50%; 
-   width: 2px;
+    border-radius: 50%;
 
 }
 
