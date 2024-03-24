@@ -19,16 +19,62 @@ h3 {
 /* Header */
 header {
   text-align: center;
+}
+
+.headerElements {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  align-items: center;
+  justify-items: center; 
+}
+
+/* About */
+.center {
+  text-align: center;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-ul {
+.description {
   text-align: left;
 }
+
+.section2 {
+  text-align: left;
+}
+
+/* Portfolio section */
+#portfolio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#portfolio p {
+  text-align: center;
+  font-size: 14px;
+} 
+
+.portfolioH2 {
+  margin: 0 0 -50px 0;
+}
+
+.item {
+  flex: 1;
+  padding: 3px;
+  margin: 2px;
+}
+
+
 /* Containers */
 div {
   background-color: #eae2b7;
-  margin: 0 auto;
+  margin: auto;
   width: 600px;
 }
 
@@ -39,28 +85,13 @@ article {
 article div {
   text-align: center;
   width: 100%;
-  padding: 10px
 }
 
-.container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-}
-
- .group{
-        display: flex;
-        flex: 1;
-        margin: 0 auto;
-        flex-direction: column;
-        justify-content: space-evenly; 
-}
 /* Paragraphs */
 p {
   line-height: 1.5;
-  
 }
+
 /* Links */
 a:link {
   color: #d62828;
@@ -72,7 +103,6 @@ a:hover {
 
 nav a {
   padding-left: 20px;
-  
 }
 
 /* Images */
@@ -90,10 +120,13 @@ img {
 /* Footer */
 footer {
   text-align: center;
-  justify-content: center;
 }
 
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.hr1 {
+  margin: 0px 0px 70px 0
 }
