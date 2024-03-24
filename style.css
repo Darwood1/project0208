@@ -15,7 +15,49 @@ h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Style the header container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the logo text */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the navigation bar */
+.navigation ul {
+    list-style: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Add hover effect for navigation links */
+.navigation a:hover {
+    text-decoration: underline;
+}
 /* Header */
 header {
   text-align: center;
