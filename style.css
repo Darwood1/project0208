@@ -59,7 +59,7 @@ article div {
 /* Paragraphs */
 p {
   line-height: 1.5;
-
+  
 }
 /* Links */
 a:link {
@@ -72,7 +72,7 @@ a:hover {
 
 nav a {
   padding-left: 20px;
-
+  
 }
 
 /* Images */
@@ -96,6 +96,7 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
 
 
 
