@@ -1,3 +1,4 @@
+
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
@@ -15,15 +16,7 @@ h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-
-}
 /* Header */
 header {
   text-align: center;
@@ -67,7 +60,7 @@ article div {
 /* Paragraphs */
 p {
   line-height: 1.5;
-  
+
 }
 /* Links */
 a:link {
@@ -80,7 +73,7 @@ a:hover {
 
 nav a {
   padding-left: 20px;
-  
+
 }
 
 /* Images */
